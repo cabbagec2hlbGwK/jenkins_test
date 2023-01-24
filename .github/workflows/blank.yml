@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: curl "http://142.189.72.6:8080/job/test/build?token=11d04b0a1890d5d7c61dc1eef117ccd6fe"
+        run: curl "http://142.189.72.6:8080/job/test/build?test123=11d04b0a1890d5d7c61dc1eef117ccd6fe"
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
